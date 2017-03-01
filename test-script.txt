@@ -1,0 +1,76 @@
+/en
+=========
+login link
+zt link
+zs link
+scan assist top link
+2nd opinion top link
+storage top link
+
+Taipan Health Slider -> Storage link
+Scan Assist Slider -> Scan Assist link
+2nd Opinion Slider -> 2nd Opinion link
+Storage Slider -> Storage link
+
+Scan Assist body links
+2nd Opinion body links
+Storage body links
+
+Company footer links
+Features footer links
+Security footer links
+
+/en/user/index
+==============
+
+false@false.com rejects login
+reset password
+login with correct account
+
+/en/user/info
+=============
+change password
+change country
+
+/en/user/group
+==============
+
+create member
+edit member
+delete cancel
+delete confirm
+
+/en/user/history
+================
+
+check pdfs
+
+/en/scan/*
+==========
+
+might disable so skip for now
+
+/en/opinion
+===========
+
+Review Radiology Report link
+Review Treatment Plan link
+Alternative Treatment Plan link
+
+/en/opinion/review_report
+=========================
+
+increment and decrement quantities
+check summary price
+create member - must not reset order
+
+/en/opinion/medicalBill_summary
+===============================
+
+fake redeem code fails
+proceed blocked without accepting T&C
+
+/en/contact
+===========
+
+sends form correctly

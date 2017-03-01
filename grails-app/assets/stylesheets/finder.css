@@ -1,0 +1,163 @@
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  }
+
+.selection_left{
+  width:40%;
+  float: left;
+}
+
+.selection_right{
+  width: 50%;
+}
+
+.list-group-item{
+  cursor: pointer;
+}
+
+#netlabel{
+  border-top: 1px solid #cccccc;
+}
+
+#netpay{
+  float: right;
+
+}
+
+
+#money{
+  float: right;
+  text-align: right;
+}
+
+@media screen and (max-width: 767px) {
+  #medic_name{
+    display: none;
+  }
+  #medic_name_mb{
+    display:block;
+  }
+  #googleMap{
+     width: 100%;
+     height: 500px;
+  }
+
+  a[id^='abc']{
+    width: 100%;
+
+  }
+
+  div[id^='hospital_image']{
+    padding-left: 15px;
+    float: right;
+  }
+
+  .text-title{
+    margin-top: 0px;
+  }
+
+
+}
+
+.hovered{
+display: none;
+}
+
+@media screen and (min-width: 767px) {
+  #googleMap{
+     width: 100%;
+     height: 500px;
+  }
+  #medic_name{
+    display: block;
+  }
+  #medic_name_mb{
+    display:none;
+  }
+
+  a[id^='abc']{
+    width: 100%;
+
+  }
+
+  .text-title{
+    margin-top: 50px;
+  }
+
+}
+
+
+#tab{
+  color: #ffffff;
+}
+
+div[id^='direction_label']{
+  display: none;
+  text-align: center;
+
+
+}
+
+
+
+#button_submit{
+  text-align: center;
+}
+
+#plan_select, #purpose_select, #purpose_label{
+  display:none;
+}
+
+.button:before {
+  width: 0px;
+  height:	0px;
+  line-height: 16px;
+  text-align: cente;
+  display: block;
+  border-radius: 20%;
+  background: rgb(255, 0, 0);
+  border: 1px solid #FFF;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+  color: #FFF;
+  position: absolute;
+  top: -30px;
+  left: 0px;
+
+}
+
+.button:hover {
+    border: 1px solid #3e8dff;
+    color: #004080;
+    background: #004080;
+    background: -webkit-gradient(linear, left top, left bottom, from(#004080), to(#004080));
+    background: -moz-linear-gradient(top, #004080, #004080);
+    background: linear-gradient(to bottom, #004080, #004080);
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase
+}
+
+.button h5 {
+  color:#ffffff;
+}
+
+.h h1 {
+  color: #004080;
+}
+
+.width {
+  width:100%;
+}
+
+
+
+
+
+.ch-landing__badge{font-size:1.2em;color:#fff;background-image:url(../images/DK_sticker1.png);height:70px;width:70px;position:absolute;top:-32px;left:-5px}
+.ch-landing__badge__wrapper{padding:5px 0 0 0px;text-align:center;-webkit-transform:rotate(12deg);-moz-transform:rotate(12deg);-ms-transform:rotate(12deg);-o-transform:rotate(12deg);transform:rotate(12deg)}

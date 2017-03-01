@@ -1,0 +1,94 @@
+.ch-landing-carousel_item{background:#f3f2ee;position:relative}@media (min-width:768px){.ch-landing-carousel_item{font-size:16px;color:#312f2e;background:#004080;border-bottom:20px solid #155072}}.ch-landing-carousel .carousel-inner{position:relative}@media (min-width:768px){.ch-landing__cta a{color:#fff}}@media (min-width:992px){.ch-landing__cta a{font-size:1.2em}}.ch-landing__header{color:#000000;font-size:1.2em;font-weight:700}@media (min-width:768px){.ch-landing__header{color:#fff;font-size:2.8em;font-weight:400;text-align:left}}.ch-landing__header h1,.ch-landing__header h2{font-size:1.3em;font-weight:700}@media (min-width:768px){.ch-landing__header h1,.ch-landing__header h2{font-size:1em;font-weight:700;margin-top:0;color:#004080;}}.ch-landing__header h3{font-size:1em;margin-top:0;text-justify: inter-word;} .ch-landing__header h5{text-align: justify;text-justify: inter-word;} @media (min-width:768px){.ch-landing__header h3{font-size:20px;font-weight:400}.ch-landing__header h3 strong{display:block}}.ch-landing__cta{margin-top:1.5em;position:relative}@media (min-width:992px){.ch-landing__cta--icon:before{content:"\e685";font-family:CGG-icomoon;color:#f1a33c;font-size:4em;position:absolute;top:-55px;left:-48px}}@media all\0{.ch-landing__cta--icon:before{font-size:56px}}.ch-landing-custom-quote a{line-height:18px;font-size:1.2em;padding:10px 12px}.ch-landing-custom-quote span{display:block;font-size:.6em}.ch-landing-or{margin:1em 0;display:block;font-weight:500;color:#302e2d;text-align:center;text-transform:capitalize}@media (min-width:768px){.ch-landing-or{color:#fff;text-transform:uppercase}}.ch-landing-quote a{color:#fff;background:#145071;border-bottom:5px solid #0a2539;width:100%;font-size:1.2em;font-weight:600;padding:8px 12px;height:62px;display:table;line-height:40px}.ch-landing-quote a.zh_HK{line-height:40px}.ch-landing-quote a:hover{background:#134a68;color:#fff}@media (min-width:768px){.ch-landing-custom-quote{width:100%;float:center}.ch-landing-or{width:10%;float:left}.ch-landing-quote{width:45%;float:left}}.ch-landing-text-link{margin-top:1em}.ch-landing__cta .ch-landing-text-link a{font-size:.8em;font-weight:600}@media (min-width:768px){.ch-landing-text-link a{color:#fff}}.ch-landing__box{background:#fff;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;margin-bottom:10px}.ch-landing__row{padding:1em 0 2em}@media (min-width:768px){.ch-landing__row{margin-bottom:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;padding:3em 0}.ch-landing__box{margin-bottom:0}}@media (min-width:768px) and (max-width:991px){.ch-landing__row{-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px}}@media (min-width:1400px){.ch-landing__row{padding:4.2em 0}}@media (min-width:200px){.ch-landing__details{color:#000000;background:rgba(255,255,255,0.9);;padding:1.5em 2.2em;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;width:39%}}@media (min-width:768px) and (max-width:991px){.ch-landing__details{border-bottom:1px solid #cdc9c6;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}}.ch-landing__details h4{font-weight:800;font-size:1.2em}.ch-landing__details_text p{font-size:.9em}.ch-landing__details_text h4{color:#004080;}.ch-landing__badge{font-size:1.8em;color:#fff;background-image:url(../images/DK_sticker.png);height:140px;width:140px;position:absolute;top:-42px;right:-45px}@media (min-width:1400px){.ch-landing__badge{background-image:url(../images/DK_sticker.png);height:160px;width:160px}}.ch-landing__badge__wrapper{padding:38px 0 0 12px;text-align:center;-webkit-transform:rotate(12deg);-moz-transform:rotate(12deg);-ms-transform:rotate(12deg);-o-transform:rotate(12deg);transform:rotate(12deg)}@media (min-width:1400px){.ch-landing__badge__wrapper{padding:50px 0 0 3px}}.logo_text{font-size:.7em!important;line-height:1;margin:0;text-align:center}@media (min-width:1400px){.logo_text{font-size:.8em!important}}.ch-landing__badge__wrapper p.logo_price{line-height:1;margin:0;text-align:center;font-weight:700;font-size:.8em!important}@media (min-width:1400px){.ch-landing__badge__wrapper p.logo_price{font-size:.9em!important}}.ch-landing__details_text{width:71%}.ch-landing__details ul{list-style:none;margin:1em 0 1.5em -2.8em;font-size:.9em}.ch-landing__details ul li{line-height:15px;margin-bottom:16px}.ch-landing__details ul li .m-cgg{font-size:1.4em;position:relative;top:-3px;float:left;height:30px;margin-right:10px;color:#2F86BD}.ch-landing__details-quote a{color:#fff;font-size:1em;background:#145071;border-bottom:5px solid #0a2539}.ch-landing__details-quote a:hover{background:#134a68}@media (min-width:768px){.ch-landing__details-quote a{display:block;float:left;width:70%}}.ch-landing__details-quote{margin-top:1em}@media (min-width:768px){.ch-landing__details-quote{height:64px;line-height:64px;padding-left:0;margin-top:0}}@media (max-width:991px){.ch-landing__details-quote{text-align:center}}.ch-landing__details-quote span{color:#fff;text-transform:uppercase;font-weight:600}@media (min-width:768px){.ch-landing__details-quote span{float:left;display:inline-block;width:19%}}@media (min-width:1400px){.ch-landing__details-quote span{width:16%}}.ch-landing__details-quote .m-cgg-icon--chevron-right{font-weight:700;background:#f58423;color:#05709E;padding:4px 3px;font-size:.5em;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;position:relative;top:-3px;margin-right:7px}@media (min-width:768px){.ch-landing-carousel_item--theme-diy .container{background-image:url(/themes/cgg-confidence-green/assets/img/landing-page/pl_landing_paint_splash.png);background-repeat:no-repeat;background-position:43% top}.ch-landing-carousel_item--theme-diy .container-fluid{background-image:url(/themes/cgg-confidence-green/assets/img/landing-page/pl_landing_paint.png);background-repeat:no-repeat;background-position:0 100%}}@media (min-width:768px){.ch-landing-carousel_item--theme-holiday .container{background-image:url(/themes/cgg-confidence-green/assets/img/landing-page/pl_landing_holiday_bg.png);background-repeat:no-repeat;background-position:0 100%}.ch-landing-carousel_item--theme-holiday .container-fluid{background-image:url(/themes/cgg-confidence-green/assets/img/landing-page/pl_landing_holiday.png);background-repeat:no-repeat;background-position:20% 100%}}@media (max-width:991px) and (min-width:768px){.ch-landing-carousel_item--theme-holiday .container{background:0 0}.item-travelinsurance{background-image:url(/themes/cgg-confidence-green/assets/img/landing-page/pl_landing_holiday_bg.png);background-repeat:no-repeat;background-position:50% 100%}}@media (min-width:768px){.ch-landing-carousel_item--theme-shopping .container{background-image:url(/themes/cgg-confidence-green/assets/img/landing-page/pl_landing_shopping_bg.png);background-repeat:no-repeat;background-position:60% 100%}.ch-landing-carousel_item--theme-shopping .container-fluid{background-image:url(/themes/cgg-confidence-green/assets/img/landing-page/pl_landing_shopping.png);background-repeat:no-repeat;background-position:0 100%}}@media (min-width:768px){.ch-landing__row{min-height:410px}}@media (min-width:768px) and (max-width:991px){.ch-landing__row{min-height:410px}}@media (min-width:1400px){.ch-landing__row{min-height:440px}}.ie8 .ch-landing__row{min-height:310px!important}.carousel-hero .carousel-indicators{position:static;z-index:15;width:100%;padding:0;margin:auto;text-align:left;list-style:none}.carousel-indicators .thumb-hero{position:relative;background:#fff;padding:1em 2em 2em 0;width:33.33%;height:122px;float:left;cursor:pointer}.carousel-indicators .thumb-hero.active{margin:auto;background:#fff;font-weight:700}.carousel-indicators .thumb-hero.active:after{bottom:100%;left:10%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;border-color:rgba(255,255,255,0);border-bottom-color:#fff;border-width:15px;margin-left:-30px}.carousel-indicators .thumb-head{color:#77aa43;font-weight:700;font-size:.9em;margin-bottom:3px;text-transform:uppercase}.carousel-indicators .thumb-text{font-size:1.3em;line-height:20px}.ch-landing-carousel_item--personalloan .ch-landing__badge{font-size:1.8em}.ch-landing-carousel_item--personalloan .ch-landing__badge .dk_logo_text{font-size:.8em!important;line-height:1;margin:0;text-align:center}.ch-landing-carousel_item--travelinsurance .ch-landing__details p{font-size:.9em}@media (min-width:768px){.ch-landing-carousel_item--travelinsurance .ch-landing__header h3 strong{display:inline-block}}@media (min-width:768px){.ch-landing-carousel_item--travelinsurance .ch-landing-custom-quote{width:60%;float:left}}@media (min-width:992px) and (max-width:1200px){.ch-landing-carousel_item--travelinsurance .ch-landing-custom-quote{width:70%;float:left}}
+.article-slide .carousel-indi {
+    bottom: 0;
+    left: 0;
+    margin-left: 5px;
+    width: 100%;
+}
+/* Indicators list style */
+.article-slide .carousel-indi li {
+    border: medium none;
+    border-radius: 0;
+    float: left;
+    height: 54px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    margin-right: 5px !important;
+    margin-top: 0;
+    width: 30%;
+}
+/* Indicators images style */
+.article-slide .carousel-indi h4 {
+    color: #000000;
+    float: left;
+    height: 54px;
+    left: 0;
+    width: 100px;
+}
+/* Indicators active image style */
+.article-slide .carousel-indi .active h4 {
+    color: #428BCA;
+    opacity: 0.7;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #2758a1;
+    border-radius: 8px;
+    background: #008080;
+    background: -webkit-gradient(linear, left top, left bottom, from(#564aff), to(#4b2699));
+    background: -moz-linear-gradient(top, #008080, #008080);
+    background: linear-gradient(to bottom, #008080, #008080);
+    text-shadow: #591717 1px 1px 1px;
+    font: normal normal bold 15px tahoma;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase
+}
+.button:hover {
+    border: 1px solid #3e8dff;
+    color: #004080;
+    background: #008080;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6759ff), to(#5a2eb8));
+    background: -moz-linear-gradient(top, #008080, #008080);
+    background: linear-gradient(to bottom, #008080, #008080);
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase
+}
+.button:active {
+    background: #342c99;
+    background: -webkit-gradient(linear, left top, left bottom, from(#342c99), to(#4b2699));
+    background: -moz-linear-gradient(top, #342c99, #4b2699);
+    background: linear-gradient(to bottom, #342c99, #4b2699);
+    text-transform: uppercase
+}
+.button:focus {
+    text-transform: uppercase
+}
+.button:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: -6px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACn0lEQVRIidWVTWhVVxSFv317B+8hJPfsF0QcBKFpEKFSKLQ4kVKr1ipU6kitFCeBoNKBkzpwKM6Egq1SndSfQREp0iIqthMpOlaIIyU4KA7MvumLYNR4Vwe5kWeM76GkQtfwsPZa++y9Dgf+73jndQsK96XNZvNMs9m8M/3o0d+9+NnrGhgMmdlW4Fpy35FSWlyDjpoHwGnMDif3fNEMJGVIAKPAceA74HyRUt+iGGRmYAbwBGlPbbTBzP5y9+H5fOsm1t/fn2V5vgppLfA+MAisAFYBG8uIKwDJ/RPgF4NMsL2MuNrVILk3gJG6u2EzyyQFMM7s7NvAvjLi/vOaVmsI6TxmK5H2zzx9enRqaupFg6IosCz7DDhRd3sDs9NIl57NzIy32+1uFya59wE/m9lWSSeR9s0njCT3x8n9dnL/tFcEFzRptbLkfii5P0vufzyPV3L/CjgGXDTYGRHd230FMqCCRr2PaQMoWq3lJt0CxgzWR8T0m4gn9wI4C3wOHMVsfw5g0kGgAezqFE/uA8BHwAfAu8BSoA+oBN9MRtzr4A4BvwLDwCjST2UEeS3yNfBjGTFeDAxkVlVbgD3AWjNrSHoC3GM2QQ2bNVxZn83F9BxmIG0qI/7sHNkXdffHkvuwVdU1M7tQd3tQ0odk2ZIy4r0yYg3wbf3QSO4k9xHgMnAf6eNOcYAcWIfZTaTlwG9ASPqygt//iajmz1nSXLZzzL43aa/gIrCrjJicz8+B1Uht4AJwE9hWRjxYeI1gZnOmPyANCo4YHIiImYX4OTBoZi5pDLPN5cTEw1eJAwgqM8OkZYLdZcSpbvwMKJAqYLSXOIDBXUmXBOt7iQNQv7jrRav1Jn9DT2TAJHB1cmLipYUuBnJgOzD2X4i/FfwLjB4AzTR5WVAAAAAASUVORK5CYII=") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}

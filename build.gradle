@@ -1,0 +1,92 @@
+
+buildscript {
+    ext {
+        grailsVersion = project.grailsVersion
+    }
+    repositories {
+        mavenLocal()
+        maven { url "https://repo.grails.org/grails/core" }
+        maven {url "http://clojars.org/repo" }
+    }
+    dependencies {
+        classpath "org.grails:grails-gradle-plugin:$grailsVersion"
+        classpath "com.bertramlabs.plugins:asset-pipeline-gradle:2.8.2"
+        classpath "org.grails.plugins:hibernate4:5.0.6"
+    }
+}
+
+version "0.1"
+group "wireframe"
+
+apply plugin:"eclipse"
+apply plugin:"idea"
+apply plugin:"war"
+apply plugin:"org.grails.grails-web"
+apply plugin:"org.grails.grails-gsp"
+apply plugin:"asset-pipeline"
+
+ext {
+    grailsVersion = project.grailsVersion
+    gradleWrapperVersion = project.gradleWrapperVersion
+}
+
+repositories {
+    mavenLocal()
+    maven { url "https://repo.grails.org/grails/core" }
+    maven { url "http://clojars.org/repo" }
+}
+
+dependencyManagement {
+    imports {
+        mavenBom "org.grails:grails-bom:$grailsVersion"
+    }
+    applyMavenExclusions false
+}
+
+dependencies {
+  compile "org.springframework.boot:spring-boot-starter-logging"
+  compile "org.springframework.boot:spring-boot-autoconfigure"
+  compile "org.grails:grails-core"
+  compile "org.springframework.boot:spring-boot-starter-actuator"
+  compile "org.springframework.boot:spring-boot-starter-tomcat"
+  compile "org.grails:grails-dependencies"
+  compile "org.grails:grails-web-boot"
+  compile "org.grails.plugins:cache"
+  compile "org.grails.plugins:scaffolding"
+  compile "org.grails.plugins:hibernate4"
+  compile "org.hibernate:hibernate-ehcache"
+  console "org.grails:grails-console"
+//  console "org.clojure:clojure:1.8.0"
+  runtime "org.clojure:clojure:1.8.0"
+  compile "org.clojure:clojure:1.8.0"
+  profile "org.grails.profiles:web:3.1.8"
+  runtime "com.bertramlabs.plugins:asset-pipeline-grails:2.8.2"
+  runtime "com.h2database:h2"
+  runtime "whamtet:s3-beamer:0.6.0-SNAPSHOT"
+  runtime "ring:ring-codec:1.0.1"
+  runtime "com.amazonaws:aws-java-sdk-s3:1.11.35"
+  testCompile "org.grails:grails-plugin-testing"
+  testCompile "org.grails.plugins:geb"
+  testRuntime "org.seleniumhq.selenium:selenium-htmlunit-driver:2.47.1"
+  testRuntime "net.sourceforge.htmlunit:htmlunit:2.18"
+  compile "org.grails.plugins:mail:2.0.0.RC6"
+  compile "javax.mail:javax.mail-api:1.5.1"
+  compile "com.sun.mail:javax.mail:1.5.1"
+  compile "org.grails.plugins:jasypt-encryption:2.0.1"
+  runtime 'mysql:mysql-connector-java:5.1.29'
+  compile "org.codehaus.groovy.modules.http-builder:http-builder:0.7"
+  compile 'org.grails.plugins:recaptcha:3.0.1'
+  compile 'org.grails.plugins:rendering:2.0.3'
+  runtime "org.springframework:spring-test:4.2.1.RELEASE"
+
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = gradleWrapperVersion
+}
+
+assets {
+    packagePlugin = true
+    minifyJs = false
+    minifyCss = true
+}

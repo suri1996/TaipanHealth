@@ -1,0 +1,35 @@
+.radioactive {
+  display:none;
+  transform: scale(0.8);
+  transition: 0.5s;
+  padding-left:10px;
+}
+
+input#choice-delivery-address:checked ~ div#address- {
+  display:block;
+  transform: scale(1);
+}
+
+input#choice-delivery-link:checked ~ div#link {
+  display:block;
+  transform: scale(1);
+}
+
+input[type="text"] , input[type="url"] {
+  font-size:14px;
+  width:200px;
+  border: 1px solid #004080;
+}
+
+h3 {
+  font-size:22px;
+  color:#004080;
+}
+.form-control {
+  border: 1px solid #004080;
+  width: 200px;
+}
+
+.form-group {
+  margin-bottom: 0px;
+}

@@ -1,0 +1,95 @@
+h1, h2, h3, h4 {
+  color:#004080;
+}
+
+form p {
+  font-size:16px;
+  margin-bottom: 0px;
+}
+
+.x {
+  border:1px solid black;
+  width:100%;
+}
+
+.xx {
+  border:1px solid black;
+  width:100%;
+  margin-bottom: 20px;
+}
+
+table > tfoot > tr > th {
+  color:#004080;
+}
+
+button > h5 {
+  color:#ffffff;
+}
+
+@media screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+  .z {
+    position:fixed;
+    width: 50%;
+    bottom:0px;
+    margin-bottom: 0px;
+    left: 0px;
+    border-right-width: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    border-radius:0px;
+    background-color: #ff0000;
+    margin-right: 0px;
+  }
+  .y {
+    position:fixed;
+    width: 50%;
+    bottom:0px;
+    margin-bottom: 0px;
+    right:0px;
+    border-right-width: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    border-radius:0px;
+    margin-right: 0px;
+    margin-left:0px;
+  }
+
+  .table {
+    font-size: 12px;
+  }
+}
+
+table > thead > tr > th {
+  width:25%;
+  background-color:white;
+}
+
+h5 {
+  color: black;
+}
+
+#en, #zt, #zs{
+  cursor: pointer;
+}
+
+#en_mobile, #zt_mobile, #zs_mobile{
+  cursor: pointer;
+}
+
+.a {
+  padding:0px;
+}
+
+.btn-default {
+  border-radius: 0px;
+  background-color: #004080;
+  color:white;
+  height:50px;
+  border:0px;
+  padding-top: 14px;
+}

@@ -1,0 +1,75 @@
+h1, h2, h3, h4 {
+  color:#004080;
+}
+
+.x {
+  width: auto;
+  padding: 10px;
+  margin-right:0px;
+}
+
+.member {
+  float:right;
+  padding:0px;
+  width:100%;
+  margin-bottom:20px;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align:right;
+}
+
+.center {
+  text-align:center;
+}
+
+.badge {
+  font-size:20px;
+  width:20%;
+  background-color: white;
+}
+
+input {
+  width:50%;
+}
+
+@media screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+  .x {
+    position:fixed;
+    width: 100%;
+    bottom:0px;
+    margin-bottom: 0px;
+    left: 0px;
+    border-right-width: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    border-radius:0px;
+  }
+
+  .badge {
+    font-size:15px;
+    width:40%;
+  }
+
+  input {
+    width:100%;
+  }
+}
+
+button {
+  outline:none;
+}
+
+#add_member{
+  cursor: pointer;
+}
+  #tooltip { position: relative; }
+  #tooltip p { display: none; color: #FFFFFF; }
+  #tooltip span:hover p { display: block; position: absolute; width: 200px; background-color: #e5ebf2; height: 100px; left: 20px; top: -80px; color: #000000; padding: 0 5px;border:1px solid #000000;border-radius:5px; text-align: left;}

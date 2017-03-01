@@ -1,0 +1,124 @@
+#carousel-hero .carousel-indicators {
+    margin: 0px 0 0;
+    overflow: auto;
+    position: static;
+    text-align: center;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+}
+#carousel-hero .carousel-indicators > div {
+  background-color: transparent;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  display: inline-block;
+  height: 70px;
+  margin: 0 !important;
+  width: 25%;
+  cursor: pointer;
+
+}
+
+#carousel-hero .carousel-indicators > .active {
+  background-color: #008080;
+  border-width: 1px;
+  border-color: #004080;
+}
+
+#carousel-hero .carousel-indicators > .active h2{
+  color:#ffffff;
+}
+
+#carousel-hero .carousel-indicators h2 {
+  color:#004080;
+  vertical-align: middle;
+}
+
+@media screen and (min-width: 1097px) {
+  .carousel-indicators > div > h2{
+    font-size: 1.5em;
+  }
+
+  .blog_mobile{
+    display: none;
+  }
+  .blog_desktop{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1097px) {
+.carousel-indicators > div > h2{
+  font-size: 1.3em;
+}
+.blog_mobile{
+  display: block;
+}
+.blog_desktop{
+  display: none;
+}
+}
+#carousel-hero .carousel-outer {
+    position: relative;
+}
+.post_comment_detail{
+     display: none;
+     padding: 10px;
+
+    }
+
+    .post_content{
+     height: 130px;
+     overflow-y: auto;
+     overflow-x:inherit;
+
+    }
+
+    .post_comment_detail > .row{
+     background:#ffffff;
+     min-height: 100px;
+     border-bottom: 0.4px solid #EEEEEE;
+
+     padding-top: 10px;
+    }
+
+
+    .post_comment_link{
+     margin-left: 10px;
+    }
+
+    .glyphicon-calendar{
+     font-size: 18px;
+
+    }
+
+    .container > .well{
+     padding-bottom: 0px;
+    }
+    .media-body{
+
+     word-wrap: break-word;
+    }
+
+    .list-unstyled > .btn-circle{
+     margin-bottom: 10px;
+    }
+
+.btn.btn-warning {
+  width: auto;
+}
+
+.btn.marginBottom10{
+      width: auto;
+}
+.fb_iframe_widget span {
+    vertical-align: top!important;
+}
+
+#post0_weibo, #post1_weibo, #post0_facebook, #post1_facebook{
+  width: auto;
+}
+
+#fh5co-footer {
+  margin-top: 0px;
+}

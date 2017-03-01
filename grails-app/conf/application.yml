@@ -1,0 +1,161 @@
+---
+hibernate:
+    cache:
+        queries: false
+        use_second_level_cache: true
+        use_query_cache: false
+        region.factory_class: 'org.hibernate.cache.ehcache.EhCacheRegionFactory'
+
+dataSource:
+    pooled: true
+    jmxExport: true
+    dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    driverClassName: com.mysql.jdbc.Driver
+    username: root
+    password: password
+
+environments:
+    development:
+        dataSource:
+            dbCreate: update
+            url: jdbc:mysql://localhost:3306/mydb2?useUnicode=true&characterEncoding=UTF-8&user=root&password=password
+    test:
+        dataSource:
+            dbCreate: update
+            url: jdbc:mysql://localhost:3306/mydb2?useUnicode=true&characterEncoding=UTF-8&user=root&password=password
+    production:
+        dataSource:
+            dbCreate: update
+            url: jdbc:mysql://aa17pp3pkvohw7.c0f4rkkh71wq.ap-northeast-2.rds.amazonaws.com:3306/mydb2?useUnicode=true&characterEncoding=UTF-8&user=root&password=password
+            properties:
+                jmxEnabled: true
+                initialSize: 5
+                maxActive: 50
+                minIdle: 5
+                maxIdle: 25
+                maxWait: 10000
+                maxAge: 600000
+                timeBetweenEvictionRunsMillis: 5000
+                minEvictableIdleTimeMillis: 60000
+                validationQuery: SELECT 1
+                validationQueryTimeout: 3
+                validationInterval: 15000
+                testOnBorrow: true
+                testWhileIdle: true
+                testOnReturn: false
+                jdbcInterceptors: ConnectionState
+                defaultTransactionIsolation: 2 # TRANSACTION_READ_COMMITTED
+
+---
+---
+grails:
+    profile: web
+    codegen:
+        defaultPackage: wireframe
+    spring:
+        transactionManagement:
+            proxies: false
+info:
+    app:
+        name: '@info.app.name@'
+        version: '@info.app.version@'
+        grailsVersion: '@info.app.grailsVersion@'
+spring:
+
+    groovy:
+        template:
+            check-template-location: false
+
+---
+grails:
+    mime:
+        disable:
+            accept:
+                header:
+                    userAgents:
+                        - Gecko
+                        - WebKit
+                        - Presto
+                        - Trident
+        types:
+            all: '*/*'
+            atom: application/atom+xml
+            css: text/css
+            csv: text/csv
+            form: application/x-www-form-urlencoded
+            html:
+              - text/html
+              - application/xhtml+xml
+            js: text/javascript
+            json:
+              - application/json
+              - text/json
+            multipartForm: multipart/form-data
+            pdf: application/pdf
+            rss: application/rss+xml
+            text: text/plain
+            hal:
+              - application/hal+json
+              - application/hal+xml
+            xml:
+              - text/xml
+              - application/xml
+    urlmapping:
+        cache:
+            maxsize: 1000
+    controllers:
+        defaultScope: singleton
+        upload:
+          maxFileSize: 10000000000
+          maxRequestSize: 10000000000
+    converters:
+        encoding: UTF-8
+    views:
+        default:
+            codec: html
+        gsp:
+            encoding: UTF-8
+            htmlcodec: xml
+            codecs:
+                expression: html
+                scriptlets: html
+                taglib: none
+                staticparts: none
+endpoints:
+    jmx:
+        unique-names: true
+
+recaptcha:
+    publicKey: "6Ldo3SYTAAAAANAoITkRq7M0LitDsWopV5KWx-lp"
+    privateKey: "6Ldo3SYTAAAAAOCvXWynkif2FpZPq8rPzvstGbPS"
+    includeScript: true
+    includeNoScript: true
+
+
+environments:
+    development:
+        recaptcha:
+            enabled: false
+            useSecureAPI: true
+    production:
+        recaptcha:
+            enabled: true
+            useSecureAPI: true
+server:
+    port: 8081
+---
+
+
+---
+grails:
+    mail:
+        port: 465
+        username: "admin@taipanhealth.com"
+        password: "Admin2016"
+        host: "secure.emailsrvr.com"
+        props:
+              mail.smtp.auth: "true"
+              mail.smtp.socketFactory.port: 465
+              mail.smtp.port: 465
+              mail.smtp.socketFactory.class: "javax.net.ssl.SSLSocketFactory"
+              mail.smtp.ssl.trust: "secure.emailsrvr.com"
